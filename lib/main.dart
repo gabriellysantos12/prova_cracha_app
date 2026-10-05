@@ -43,7 +43,6 @@ class MeuCrachaApp extends StatelessWidget {
                 // ESTILIZAÇÃO E BIOGRAFIA
                 // ===============================================================
 
-                // Nome completo do aluno
                 const Text(
                   'Nome Completo do Aluno',
                   style: TextStyle(
@@ -52,12 +51,41 @@ class MeuCrachaApp extends StatelessWidget {
                   ),
                 ),
 
-                // Biografia / profissão
                 const Text(
                   'Desenvolvedor Mobile Flutter / SENAI',
                   style: TextStyle(
                     fontStyle: FontStyle.italic,
                   ),
+                ),
+
+                const Divider(
+                  color: Colors.black26,
+                  height: 30,
+                ),
+
+                // ===============================================================
+                // DESAFIO 3 (3 PONTOS)
+                // ALINHAMENTO DE SKILLS (ROW)
+                // ===============================================================
+                const Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Chip(
+                      label: Text('Dart'),
+                    ),
+
+                    SizedBox(width: 5),
+
+                    Chip(
+                      label: Text('Flutter'),
+                    ),
+
+                    SizedBox(width: 5),
+
+                    Chip(
+                      label: Text('Git'),
+                    ),
+                  ],
                 ),
               ],
             ),
