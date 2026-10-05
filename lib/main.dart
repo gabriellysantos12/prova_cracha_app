@@ -87,6 +87,12 @@ class MeuCrachaApp extends StatelessWidget {
                     ),
                   ],
                 ),
+		 // ===============================================================
+                // DESAFIO 4 (3 PONTOS)
+                // COMPILAÇÃO E ESTRUTURA
+                // ===============================================================
+                // Código estruturado corretamente e sem erros de sintaxe.
+                // O aplicativo deve compilar e executar normalmente.
               ],
             ),
           ),
