@@ -24,10 +24,39 @@ class MeuCrachaApp extends StatelessWidget {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
+
+                // ===============================================================
+                // DESAFIO 1 (3 PONTOS)
+                // FOTO DE PERFIL
+                // ===============================================================
                 const CircleAvatar(
                   radius: 50,
                   backgroundImage: NetworkImage(
                     'https://github.com/identicons/flutter.png',
+                  ),
+                ),
+
+                const SizedBox(height: 15),
+
+                // ===============================================================
+                // DESAFIO 2 (3 PONTOS)
+                // ESTILIZAÇÃO E BIOGRAFIA
+                // ===============================================================
+
+                // Nome completo do aluno
+                const Text(
+                  'Nome Completo do Aluno',
+                  style: TextStyle(
+                    fontSize: 22,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+
+                // Biografia / profissão
+                const Text(
+                  'Desenvolvedor Mobile Flutter / SENAI',
+                  style: TextStyle(
+                    fontStyle: FontStyle.italic,
                   ),
                 ),
               ],
